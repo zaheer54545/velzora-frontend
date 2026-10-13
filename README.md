@@ -1,7 +1,6 @@
 # Velzora
 
-Ecommerce storefront (formerly Nexota), built with **Next.js (App Router)**, React 19, Tailwind CSS v4, Zustand, Framer Motion and Axios.
-
+E-commerce storefront built with **Next.js (App Router)**, React 19, Tailwind CSS v4, Zustand, Framer Motion, and Axios.
 ## Getting started
 
 ```bash

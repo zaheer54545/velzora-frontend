@@ -3,7 +3,6 @@
 import { useEffect } from "react";
 import { Toaster } from "react-hot-toast";
 import { useLocation } from "@/lib/router";
-import { migrateLegacyStorage } from "@/lib/migrateLegacyStorage";
 import { LanguageProvider } from "../context/LanguageContext";
 import useAuthStore from "../store/useAuthStore";
 
@@ -17,7 +16,6 @@ import RouteProgressBar from "../components/ui/RoutesProgressBar";
 
 // Carry saved carts / wishlists / search history over from the pre-rebrand keys
 // before any store reads them.
-migrateLegacyStorage();
 
 function ScrollToTop() {
   const { pathname, search, hash } = useLocation();
